@@ -20,9 +20,9 @@ class CSVParser implements ProductFileParserInterface {
 
             $delimiter = ',';
             if (($resource = fopen($filePath, "r")) !== FALSE) {
-                $columns = fgetcsv($resource, 1000, $delimiter);
+                $columns = fgetcsv($resource, 2000, $delimiter);
 
-                while (($row = fgetcsv($resource, 1000, $delimiter)) !== FALSE) {
+                while (($row = fgetcsv($resource, 2000, $delimiter)) !== FALSE) {
                     if (count($columns) == count($row)) {
                         $data[] = array_combine($columns, $row);
                     } else {
