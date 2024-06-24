@@ -20,6 +20,13 @@ The task involved creating a command-line program to process an XML file and pus
 - Add Products Command: php artisan add:products {file} {dbType=pgsql}
 - Test Case: php artisan test --filter=ProcessDataCommandTest
 
-**Note:** The program is configurable, allowing you to easily add more file formats and different databases. The default database is set to 'PostgreSQL', so you can omit the dbtype parameter when running the command. The final command can be written as php artisan add:products data_files/feed.xml, or if you want to use a different database (e.g., 'SQLite'), you can run 
+**Note:** The program is configurable, allowing you to easily add more file formats and different databases. The default database is set to 'PostgreSQL', so you can omit the dbtype parameter when running the command. The final command can be written as 
+
 ```sh
-php artisan add:products data_files/feed.xml sqlite.
+php artisan add:products data_files/feed.xml 
+```
+Different database (e.g., 'SQLite'), you can run 
+
+```sh
+php artisan add:products data_files/feed.xml sqlite
+```
