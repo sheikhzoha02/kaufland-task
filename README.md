@@ -2,7 +2,7 @@
 The task was to create a command-line program that processes an XML file and pushes the data to a chosen database. This has been achieved by developing a Laravel Command capable of handling various file formats (XML, CSV, JSON, and DOCX), with the flexibility to easily add more formats. The processed data is then pushed to the specified database. The program is designed to be flexible enough to load half of the data from one file format and the other half from another format, for example, half from a CSV file and half from an XML file, without creating duplicate records. Errors are logged in the Laravel log files, and the task is tested using test cases that identify potential issues when running the command with different file formats.
 
 ## Prerequisites
-The command-line program is created and tested on these versions:
+The command-line program was developed and tested using the following versions:
 - PHP: 8.3.8
 - Laravel Framework: 11.11.1
 - PostgreSQL: 16.1
