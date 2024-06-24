@@ -38,5 +38,14 @@ php artisan add:products data_files/feed.xml sqlite
 - Updated_AT: Track the updation time of product
 
 ## Screenshots
-Data is entered into the 'products' table in the 'PostgreSQL' database.
+Data is entered into the 'products' table in the 'PostgreSQL' database
 ![Database](images/database.png)
+
+Successful entry of the data using command-line program
+![Database](images/succesful_entries.png)
+
+Duplicate entry error when SKU is already present
+![Database](images/duplicate_entry.png)
+
+Execution of the test cases
+![Database](images/testcases.png)
