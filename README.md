@@ -48,4 +48,5 @@ Duplicate entry error when SKU is already present
 ![Database](images/duplicate_entry.png)
 
 Execution of the test cases
+
 ![Database](images/testcases.png)
