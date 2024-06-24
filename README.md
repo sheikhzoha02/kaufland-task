@@ -38,3 +38,5 @@ php artisan add:products data_files/feed.xml sqlite
 - Updated_AT: Track the updation time of product
 
 ## Screenshots
+Data is entered into the 'products' table in the 'PostgreSQL' database.
+![Database](images/database.png)
