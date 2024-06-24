@@ -1,4 +1,6 @@
 # kaufland-task
+The task was to make a command-line program that should process the XML file and push the data to the database of your choice.
+
 
 ## Prerequisites
 - PHP: 8.3.8
