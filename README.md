@@ -6,7 +6,7 @@ The command-line program was developed and tested using the following versions:
 - PHP: 8.3.8
 - Laravel Framework: 11.11.1
 - PostgreSQL: 16.1
-- Change .env.example file to .env and generate the app key using the command
+- Change .env.example file to .env and generate the app key using the following command:
 
 ```sh
 php artisan key:generate
